@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .gang_icon1 {
+        position: absolute;
+        top: 700px;
+        left: 920px;
+        font-size: 40px;
+      }
+
+      .reason1_txt {
+        padding: 15px 20px;
+        background-color: #444444;
+        border-radius: 5px;
+        color: #ffffff;
+        display: none;
+        position: absolute;
+        top: 700px;
+        left: 1020px;
+        font-size: 15px;
+      }
+      .gang_icon1:hover + .reason1_txt {
+        display: block;
+      }
+      .gang_icon2 {
+        position: absolute;
+        top: 942px;
+        left: 968px;
+        font-size: 40px;
+      }
+
+      .reason2_txt {
+        padding: 15px 20px;
+        background-color: #444444;
+        border-radius: 5px;
+        color: #ffffff;
+        display: none;
+        position: absolute;
+        top: 942px;
+        left: 1018px;
+        font-size: 15px;
+      }
+      .gang_icon2:hover + .reason2_txt {
+        display: block;
+      }
+      .gang_icon3 {
+        position: absolute;
+        top: 668px;
+        left: 741px;
+        font-size: 40px;
+      }
+
+      .reason3_txt {
+        padding: 15px 20px;
+        background-color: #444444;
+        border-radius: 5px;
+        color: #ffffff;
+        display: none;
+        position: absolute;
+        top: 668px;
+        left: 791px;
+        font-size: 15px;
+      }
+      .gang_icon3:hover + .reason3_txt {
+        display: block;
+      }
+      .gang_icon4 {
+        position: absolute;
+        top: 636px;
+        left: 827px;
+        font-size: 40px;
+      }
+
+      .reason4_txt {
+        padding: 15px 20px;
+        background-color: #444444;
+        border-radius: 5px;
+        color: #ffffff;
+        display: none;
+        position: absolute;
+        top: 636px;
+        left: 877px;
+        font-size: 15px;
+      }
+      .gang_icon4:hover + .reason4_txt {
+        display: block;
+      }
+      .gang_icon5 {
+        position: absolute;
+        top: 635px;
+        left: 934px;
+        font-size: 40px;
+      }
+
+      .reason5_txt {
+        padding: 15px 20px;
+        background-color: #444444;
+        border-radius: 5px;
+        color: #ffffff;
+        display: none;
+        position: absolute;
+        top: 635px;
+        left: 984px;
+        font-size: 15px;
+      }
+      .gang_icon5:hover + .reason5_txt {
+        display: block;
+      }
+      .gang_icon6 {
+        position: absolute;
+        top: 756px;
+        left: 1196px;
+        font-size: 40px;
+      }
+
+      .reason6_txt {
+        padding: 15px 20px;
+        background-color: #444444;
+        border-radius: 5px;
+        color: #ffffff;
+        display: none;
+        position: absolute;
+        top: 756px;
+        left: 1246px;
+        font-size: 15px;
+      }
+      .gang_icon6:hover + .reason6_txt {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer">
+      <div class="menu">
+        <div class="menu_item">로그아웃</div>
+        <div class="menu_item">관리자 연락</div>
+      </div>
+      <div class="logo">
+        <div class="logo_img">
+          <img src="logo.png" alt="My Image" />
+        </div>
+      </div>
+      <div class="nav_bar">
+        <div class="nav_1">
+          <a class="nav_item" href="gangnam.html"> 설치위치 </a>
+        </div>
+        <div class="nav_2">
+          <a class="nav_item" href="baechul.html"> 배출량 </a>
+        </div>
+        <div class="nav_3">
+          <a class="nav_item" href="manage.html"> 수거함관리 </a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="dropdown">
+          <span class="drop">자치구를 선택하세요</span>
+          <div class="dropdown-content">
+            <a class="dropdown-item" href="jongro.html">종로구</a>
+            <a class="dropdown-item" href="gangnam.html">강남구</a>
+            <a class="dropdown-item" href="gangseo.html">강서구</a>
+            <a class="dropdown-item" href="songpa.html">송파구</a>
+            <a class="dropdown-item" href="songpa.html">동대문구</a>
+            <a class="dropdown-item" href="songpa.html">강동구</a>
+            <a class="dropdown-item" href="songpa.html">강북구</a>
+            <a class="dropdown-item" href="songpa.html">성북구</a>
+            <a class="dropdown-item" href="songpa.html">성동구</a>
+            <a class="dropdown-item" href="songpa.html">노원구</a>
+            <a class="dropdown-item" href="songpa.html">용산구</a>
+            <a class="dropdown-item" href="songpa.html">서초구</a>
+            <a class="dropdown-item" href="songpa.html">동작구</a>
+            <a class="dropdown-item" href="songpa.html">관악구</a>
+            <a class="dropdown-item" href="songpa.html">양천구</a>
+            <a class="dropdown-item" href="songpa.html">구로구</a>
+            <a class="dropdown-item" href="songpa.html">광진구</a>
+            <a class="dropdown-item" href="songpa.html">마포구</a>
+            <a class="dropdown-item" href="songpa.html">중랑구</a>
+            <a class="dropdown-item" href="songpa.html">은평구</a>
+            <a class="dropdown-item" href="songpa.html">영등포구</a>
+            <a class="dropdown-item" href="songpa.html">금천구</a>
+            <a class="dropdown-item" href="songpa.html">서대문구</a>
+            <a class="dropdown-item" href="songpa.html">중구</a>
+            <a class="dropdown-item" href="songpa.html">도봉구</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="map">
+        <div class="hm_txt">
+          <div class="hm_small">HM.com</div>
+        </div>
+        <div class="map_title">
+          <div class="map_txt">강서 의류 수거함 설치 위치를 알아보세요</div>
+        </div>
+
+        <div class="map_box">
+          <div class="gang_img">
+            <img class="gangnam" src="gangseo_edit.png" alt="My Image" />
+          </div>
+          <div class="gang_icon1">
+            <img src="logo.png" alt="icon" />
+          </div>
+          <div class="reason1_txt">
+            <div>h&m 강서 NC점</div>
+          </div>
+          <div class="gang_icon2">
+            <div>📍</div>
+          </div>
+          <div class="reason2_txt">
+            <div>주소: 서울 강서구 화곡동 945-4​​</div>
+            <div>인근 매장: h&m 강서 NC점</div>
+            <div>특징: 2030 여성 인구 밀집​</div>
+            <div>오피스텔, 아파트 밀집</div>
+          </div>
+          <div class="gang_icon3">
+            <div>📍</div>
+          </div>
+          <div class="reason3_txt">
+            <div>주소: 서울 강서구 마곡동 742-4​</div>
+            <div>인근 매장: h&m 강서 NC점</div>
+            <div>특징: 임금근로자 밀집</div>
+            <div>아파트 밀집</div>
+          </div>
+          <div class="gang_icon4">
+            <div>📍</div>
+          </div>
+          <div class="reason4_txt">
+            <div>주소: 서울 강서구 마곡중앙5로 6​</div>
+            <div>인근 매장: h&m 강서 NC점</div>
+            <div>특징: 2030 여성인구 밀집</div>
+            <div>아파트 밀집</div>
+          </div>
+          <div class="gang_icon5">
+            <div>📍</div>
+          </div>
+          <div class="reason5_txt">
+            <div>주소: 서울 강서구 가양동 179-4</div>
+            <div>인근 매장: h&m 강서 NC점</div>
+            <div>특징: 2030 인구 밀집</div>
+            <div>아파트 밀집</div>
+          </div>
+          <div class="gang_icon6">
+            <div>📍</div>
+          </div>
+          <div class="reason6_txt">
+            <div>주소: 서울 강서구 염창동 292-2</div>
+            <div>인근 매장: h&m 강서 NC점</div>
+            <div>특징: 2030 여성인구 밀집</div>
+            <div>아파트 밀집</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

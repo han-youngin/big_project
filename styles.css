@@ -1,0 +1,169 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+*{
+    margin: 0;
+}
+
+.outer{
+            margin-top: 20px;
+            margin-bottom: 150px;
+            width: 100%;
+            justify-content: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: right;
+}
+.menu_item{
+    margin-right: 3%;
+    font-weight: 200;
+}
+.logo_img{
+    display: flex;
+    justify-content: center;
+}
+
+
+.map_title{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.map_box{
+    display: flex;
+    justify-content: center;
+}
+.map_txt{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.gang_img{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+  .gangnam{
+    height: 700px;
+    width: 65%;
+  }
+
+  .container{
+    position: fixed;
+  }
+  .dropdown{
+    margin-left: 8%;
+    margin-top: 148px;
+  }
+
+
+  .nav_bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: black;
+  }
+
+ 
+
+.nav_item{
+    color: black;
+    font-weight: 200;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.nav_item:hover{
+    color: black;
+    text-underline-offset : 5px;
+}
+  
+.dropdown-menu{
+    border: 0px;
+    box-shadow: 0px;
+}
+
+.dropdown-item:active{
+    border: 0px;
+    background-color: white;
+}
+
+.dropdown-item:hover{
+    border: 0px;
+    background-color: white;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+#drop:active{
+    border: 0px;
+    box-shadow: 0px;
+}
+
+#drop{
+    border: 0px;
+    box-shadow: 0px;
+}
+
+#drop:hover{
+    border: 0px;
+    box-shadow: 0px;
+}
+
+#drop:visited{
+    border: 0px;
+    box-shadow: 0px;
+}
+
+.dropdown{
+    position : relative;
+    display : inline-block;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
+  .dropdown-content{
+    display : none;
+    position : absolute;
+    z-index : 1; /*다른 요소들보다 앞에 배치*/
+  }
+  
+  .dropdown-content a{
+    display : block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-item:hover{
+    color: red;
+  }
+
+  .dropdown-item{
+    font-weight: 200;
+    font-size: 15px
+  }
+  
+  .hm_small{
+    font-size: 10px;
+  }
+
+.hm_txt{
+    display: flex;
+    justify-content: center;
+}
+
+a:hover{
+color: red;
+}
